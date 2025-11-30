@@ -4,6 +4,37 @@
  * SPDX-License-Identifier: MIT
  */
 
+/*
+ * KEYMAP REFERENCE SHEET
+ * ======================
+ * 
+ * LAYERS:
+ * -------
+ * Layer 0 (Default): QWERTY layout
+ * Layer 1 (Lower):   Numbers, Bluetooth controls, navigation arrows
+ * Layer 2 (Raise):   Symbols, special characters, text formatting
+ * Layer 3 (Layer4):  Gaming layer with numpad and gaming keys
+ * 
+ * LAYER ACCESS:
+ * -------------
+ * LWR (Left)  = &mo 1  (momentary lower layer)
+ * RSE (Right) = &mo 2  (momentary raise layer)
+ * LWR + RSE   = &tog 3 (toggle layer 3 - gaming layer on/off)
+ * 
+ * LAYER 3 (GAMING) LAYOUT:
+ * ------------------------
+ * Left Side:                     Right Side:
+ * TAB   1     2     3     4   5   NP7  NP8  NP9  J     -    -
+ * X     Q     W     E     R   X   NP4  NP5  NP6  M     -    -
+ * SHFT  A     S     D     F   V   NP1  NP2  NP3  N     -    -
+ *             C    LWR   SPC         RET  RSE   ALT
+ * 
+ * COMBO SHORTCUTS:
+ * ----------------
+ * LWR + RSE (positions 36,39): Toggle Layer 3 (gaming mode)
+ *
+ */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
