@@ -30,6 +30,7 @@
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
+
                 lower_layer {
                         display-name = "Layer2";
                         bindings = <
@@ -39,6 +40,7 @@
                                         &kp LGUI     &trans       &kp SPACE    &kp RET  &trans   &kp RALT
                         >;
                 };
+
                 raise_layer {
                         display-name = "Layer3";
                         bindings = <
@@ -48,6 +50,7 @@
                                 &kp LGUI  &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
+
                 layer4 {
                         display-name = "Layer4";
                         bindings = <
