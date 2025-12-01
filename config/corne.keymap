@@ -69,11 +69,16 @@
 
                 layer4 {
                         display-name = "Gaming";
+// -----------------------------------------------------------------------------------------
+// | TAB  |  1  |  2  |  3  |  4  |  5  |             | NP7 | NP8 | NP9 |  J  |     |     |
+// |  X   |  Q  |  W  |  E  |  R  |  X  |             | NP4 | NP5 | NP6 |  M  |     |     |
+// | SHFT |  A  |  S  |  D  |  F  |  V  |             | NP1 | NP2 | NP3 |  N  |     |     |
+//                    |  C  | LWR | SPC |             | ENT | RSE | ALT |
                         bindings = <
    &kp TAB   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp J     &trans &trans
    &kp X     &kp Q  &kp W  &kp E  &kp R  &kp X      &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp M     &trans &trans
    &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp V      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp N     &trans &trans
-                    &kp C  &mo 1 &kp SPACE         &kp RET   &mo 2     &kp RALT
+                            &kp C  &mo 1 &kp SPACE  &kp RET   &mo 2     &kp RALT
                         >;
                 };
         };
