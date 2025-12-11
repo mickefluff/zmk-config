@@ -72,13 +72,13 @@
 // -----------------------------------------------------------------------------------------
 // | TAB  |  1  |  W  |  2  |  3  |  4  |             | NP7 | NP8 | NP9 |  J  |     |     |
 // | LSHFT|  A  |  S  |  D  |  5  |  6  |             | NP4 | NP5 | NP6 |  M  |     |     |
-// | LCTRL|  Q  |  F  |  E  |  7  |  c  |             | NP1 | NP2 | NP3 |  N  |     |     |
-//                    |  X  |  V  | SPC |             | ENT | RSE | ALT |
+// | LCTRL|  Q  |  F  |  E  |  c  |  v  |             | NP1 | NP2 | NP3 |  N  |     |     |
+//                    |  X  | RSE | SPC |             | ENT | RSE | ALT |
                         bindings = <
    &kp TAB   &kp N1 &kp W  &kp N2 &kp N3 &kp N4     &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp J  &trans &trans
    &kp LSHFT &kp A  &kp S  &kp D  &kp N5 &kp N6     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp M  &trans &trans
-   &kp LCTRL &kp Q  &kp F  &kp E  &kp N7 &kp C      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp N  &trans &trans
-                           &kp X  &kp V  &kp SPAC   &kp RET   &mo 2     &kp RALT
+   &kp LCTRL &kp Q  &kp F  &kp E  &kp C  &kp V      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp N  &trans &trans
+                           &kp X  &mo 2  &kp SPACE  &kp RET   &mo 2     &kp RALT
                         >;
                 };
         };
