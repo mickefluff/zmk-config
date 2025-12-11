@@ -1,0 +1,29 @@
+CORNE KEYBOARD CHEATSHEET
+
+DEFAULT LAYER
+-----------------------------------------------------------------------------------------
+|  TAB |  Q  |  W  |  E  |  R  |  T  |             |  Y  |  U   |  I  |  O  |  P  |  Å  |
+| SHFT |  A  |  S  |  D  |  F  |  G  |             |  H  |  J   |  K  |  L  |  ;  |  '  |
+| LCTRL|  Z  |  X  |  C  |  V  |  B  |             |  N  |  M   |  ,  |  .  |  /  | ESC |
+                   | GUI | LWR | SPC |             | ENT | RSE  | ALT |
+
+LOWER LAYER (Hold LWR)
+-----------------------------------------------------------------------------------------
+|  ESC |  1  |  2  |  3  |  4  |  5  |             |  6  |  7  |  8  |  9  |  0  | BSPC |
+| SHFT | BT1 | BT2 | BT3 | BT4 | BT5 |             |BTCLR| F11 | F12 |     |QMARK|      |
+| LCTRL| F1  |  F2 |  F3 |  F4 |  F5 |             |  F6 |  F7 |  F8 |  F9 | F10 | ESC  |
+                    | GUI |     | SPC |             | ENT |     | ALT |
+
+RAISE LAYER (Hold RSE)
+-----------------------------------------------------------------------------------------
+|  ESC |  !  |  @  |  #  |  $  |  %  |             |  ^  |  &  |  *  |  (  |  )  | DEL  |
+| SHFT |  LT |  UP |  GT |     |     |             |  -  |  =  |  [  |  ]  |  \  |  `   |
+| LCTRL| LFT | DWN | RGT |     |     |             |  _  |  +  |  {  |  }  | "|" |  ~   |
+                   | GUI |     | SPC |             | ENT |     | ALT |
+
+GAMING LAYER (Toggle with RSE + RALT)
+-----------------------------------------------------------------------------------------
+| TAB  |  1  |  W  |  3  |  4  |  5  |             | NP7 | NP8 | NP9 |  J  |     |     |
+| SHFT |  A  |  S  |  D  |  6  |  7  |             | NP4 | NP5 | NP6 |  M  |     |     |
+| CTRL |  Q  |  F  |  E  |  V  |  8  |             | NP1 | NP2 | NP3 |  N  |     |     |
+                   |  Z  |  X  | SPC |             | ENT | RSE | ALT |
