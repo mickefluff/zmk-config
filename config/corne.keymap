@@ -3,9 +3,9 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+//dawkodwad
 // Corne Keyboard Configuration - Swedish Layout
-// Layer 4 Gaming: Press LWR + RSE together to toggle
+// Layer 4 Gaming: Press RSE + RALT together to toggle
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -16,7 +16,7 @@
                 compatible = "zmk,combos";
                 combo_layer4 {
                         timeout-ms = <50>;
-                        key-positions = <37 40>;
+                        key-positions = <40 41>;
                         bindings = <&tog 3>;
                 };
         };
@@ -37,7 +37,7 @@
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
-                };
+                };Can we make it so that to enter layer 4(gaming) i want the RSE and ALT toghether to enter and exit layer 4
                 lower_layer {
                         display-name = "Lower Layer";
 // -----------------------------------------------------------------------------------------
@@ -70,16 +70,16 @@
                 layer4 {
                         display-name = "Gaming";
 // -----------------------------------------------------------------------------------------
-// | TAB  |  1  |  2  |  3  |  4  |  5  |             | NP7 | NP8 | NP9 |  J  |     |     |
-// |  X   |  Q  |  W  |  E  |  R  |  X  |             | NP4 | NP5 | NP6 |  M  |     |     |
-// | SHFT |  A  |  S  |  D  |  F  |  V  |             | NP1 | NP2 | NP3 |  N  |     |     |
-//                    |  C  | LWR | SPC |             | ENT | RSE | ALT |
+// | TAB  |  1  |  W  |  2  |  3  |  4  |             | NP7 | NP8 | NP9 |  J  |     |     |
+// | LSHFT|  A  |  S  |  D  |  5  |  6  |             | NP4 | NP5 | NP6 |  M  |     |     |
+// | LCTRL|  Q  |  F  |  E  |  7  |  c  |             | NP1 | NP2 | NP3 |  N  |     |     |
+//                    |  X  |  V  | SPC |             | ENT | RSE | ALT |
                         bindings = <
-   &kp TAB   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp J     &trans &trans
-   &kp X     &kp Q  &kp W  &kp E  &kp R  &kp X      &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp M     &trans &trans
-   &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp V      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp N     &trans &trans
-                           &kp C  &mo 1  &kp SPACE  &kp RET   &mo 2     &kp RALT
+   &kp TAB   &kp N1 &kp W  &kp N2 &kp N3 &kp N4     &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp J  &trans &trans
+   &kp LSHFT &kp A  &kp S  &kp D  &kp N5 &kp N6     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp M  &trans &trans
+   &kp LCTRL &kp Q  &kp F  &kp E  &kp N7 &kp C      &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp N  &trans &trans
+                        &kp X  &kp V  &kp SPACE     &kp RET   &mo 2  &kp RALT
                         >;
                 };
         };
-};
+};                        
