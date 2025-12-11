@@ -24,6 +24,6 @@ RAISE LAYER (Hold RSE)
 GAMING LAYER (Toggle with RSE + RALT)
 -----------------------------------------------------------------------------------------
 | TAB  |  1  |  W  |  3  |  4  |  5  |             | NP7 | NP8 | NP9 |  J  |     |     |
-| SHFT |  A  |  S  |  D  |  6  |  7  |             | NP4 | NP5 | NP6 |  M  |     |     |
-| CTRL |  Q  |  F  |  E  |  V  |  8  |             | NP1 | NP2 | NP3 |  N  |     |     |
-                   |  Z  |  X  | SPC |             | ENT | RSE | ALT |
+| SHFT |  A  |  S  |  D  |  F  |  G  |             | NP4 | NP5 | NP6 |  M  |     |     |
+| CTRL |  I  |  H  |  §  |  X  |  J  |             | NP1 | NP2 | NP3 |  N  |     |     |
+                    |  Z  |  C  | SPC |             | ENT | RSE | ALT |
