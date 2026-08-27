@@ -1,0 +1,7 @@
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config ZMK_WIDGET_KEYPRESS_ANIM
+    bool "Keypress-driven animation, remotely triggered by the split central on every keypress"
+    default n
+    depends on ZMK_DISPLAY

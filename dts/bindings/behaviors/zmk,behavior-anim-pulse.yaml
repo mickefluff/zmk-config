@@ -1,0 +1,12 @@
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+description: |
+  Peripheral-side keypress-animation pulse behavior. Not meant to be bound to
+  a key in a keymap; it is invoked remotely by the split central whenever any
+  key on either half of the split is pressed, so it can drive an animation on
+  this half's display.
+
+compatible: "zmk,behavior-anim-pulse"
+
+include: zero_param.yaml

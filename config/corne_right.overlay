@@ -1,0 +1,17 @@
+/*
+ * Copyright (c) 2024 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+/* Peripheral-only behavior invoked remotely by the central half on every
+ * keypress (from either half) to drive the keypress animation widget.
+ * See config/corne_right.conf and Kconfig / CMakeLists.txt at the repo root.
+ */
+/ {
+    anim_pulse: anim_pulse {
+        compatible = "zmk,behavior-anim-pulse";
+        #binding-cells = <0>;
+        label = "ANIMKEY";
+    };
+};
